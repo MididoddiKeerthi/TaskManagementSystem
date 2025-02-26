@@ -1,0 +1,12 @@
+/* Stack buttons vertically */
+.button-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Space between buttons */
+}
+
+/* Optional: Adjust button width */
+.button-stack .btn {
+  width: 100%; /* Make buttons full width */
+  text-align: center; /* Center button text */
+}
